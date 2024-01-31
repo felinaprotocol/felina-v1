@@ -1,40 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Felina Protocol
+
+Felina Protocol is a decentralized application that aims to provide users with a seamless and secure interface for interacting with blockchain-based services. Built with Next.js and integrated with state-of-the-art wallet management provided by RainbowKit, Felina Protocol ensures a user-friendly experience while maintaining high standards of security and performance.
+
+## Features
+
+- **Next.js Framework:** Utilizing the powerful and efficient features of Next.js for server-side rendering and static generation.
+- **RainbowKit Integration:** Easy-to-use wallet management for connecting and transacting with various blockchains.
+- **Client-Side Analytics:** Performance and usage insights with client-side analytics integration.
+- **Dark Theme UI:** A sleek and modern dark theme UI for comfortable user experiences.
+- **Speed Insights:** Client-side component to provide users with real-time speed and performance metrics.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+### Prerequisites
+
+- Node.js
+- Yarn or npm
+- Git
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/felinaprotocol/felina-v1.git
+   ```
+
+2. Install NPM packages
+    ```sh
+    pnpm install
+    ```
+
+    or
+
+    ```sh
+    npm install
+    ```
+
+## Usage 
+
+To start the development server, run:
+
+```sh
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+npm dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Open http://localhost:3000 with your browser to see the result.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To deploy the application, you can use Vercel, which is seamlessly integrated with Next.js:
 
-## Learn More
+```sh
+npx vercel
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [Next.js](https://nextjs.org/) - The React framework for production
+* [RainbowKit](https://www.rainbowkit.com/) - Wallet connection library
+* [NextUI](https://nextui.org/) - Components library
